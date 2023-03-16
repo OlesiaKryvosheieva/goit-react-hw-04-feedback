@@ -8,7 +8,7 @@ export const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => {
       <li className={css.item}>Neutral: {neutral}</li>
       <li className={css.item}>Bad: {bad}</li>
       <li className={css.item}>Total: {total}</li>
-      <li className={css.item}>Positive Feedback: {positiveFeedback}</li>
+      <li className={css.item}>Positive Feedback: {positiveFeedback}%</li>
     </ul>
   );
 };
