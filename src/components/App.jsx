@@ -18,8 +18,7 @@ export class App extends Component {
   };
 
   countTotalFeedback = () => {
-    const total = this.options.reduce((acc, option) => (acc + option, 0));
-    return total;
+    console.log(this.options);
   };
 
   countPositiveFeedbackPercentage = () => {
